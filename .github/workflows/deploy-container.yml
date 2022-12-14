@@ -2,7 +2,7 @@ name: Deploy container
 
 on:
   workflow_dispatch:
-      inputs:
+    inputs:
       resourceGroup:
         description: 'リソース グループ名'
         required: true
